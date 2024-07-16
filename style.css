@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+  
+#bulb{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+button{
+    padding: 10px 20px;
+    position: relative;
+    top: -100px;
+    left: 720px;
+    border-radius: 6px;
+    background-color: #FFEC9E;
+}
