@@ -1,25 +1,28 @@
-h1{
-    text-align: center;
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
 }
-
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
+h1 {
+  font-size: 5vw;
+  color: darkgoldenrod;
 }
-  
-#bulb{
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    border: 2px solid black;
+#bulb {
+  margin: 1rem;
+  width: 16rem;
+  height: 16rem;
+  background-color: #e7cdcd;
+  border-radius: 20rem;
 }
-button{
-    padding: 10px 20px;
-    position: relative;
-    top: -100px;
-    left: 720px;
-    border-radius: 6px;
-    background-color: #FFEC9E;
+button {
+  margin-top: 1rem;
+  border: 3px solid green;
+  background-color: green;
+  color: white;
+  font-weight: 500;
+  padding: 0.7rem;
+  border-radius: 0.7rem;
 }
